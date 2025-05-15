@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="/assets/css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<section class=" relative  h-screen  bg-cover bg-center " style="background-image: url('/assets/img/bcg.png');">
+    <div class="container mx-auto">
+        <div class="flex justify-between p-10 text-xl "> 
+            <a href="#"><h1 class="text-white font-fontprimary font-bold text-2xl">
+                UpConstruction<span class="text-yellow-400">.</span>
+            </h1></a>
+            <input type="checkbox" class="block xl:hidden peer appearance-none w-5 h-5 bg-white bg-[url('/assets/img/menu.png')]">
+            <nav class=" bg-brand-black hidden absolute right-0 top-0 w-96 h-full p-10  peer-checked:block  xl:block xl:bg-inherit xl:h-auto xl:relative xl:p-0">   
+                <ul class="flex flex-col  space-y-8  xl:items-center xl:flex-row xl:space-x-5 xl:space-y-0  text-sm font-semibold text-gray-300 font-fontprimary"  >
+                    <li class="hover:text-white hover:border-b-4 hover:border-yellow-500 duration-200 ease-in hover:border-dela hover:duration-300 hover:ease-in-out"><a href="">HOME</a></li>
+                    <li class="hover:text-white hover:border-b-4 hover:border-yellow-500 duration-200 ease-in hover:border-dela hover:duration-300 hover:ease-in-out"><a href="">ABOUT</a></li>
+                    <li class="hover:text-white hover:border-b-4 hover:border-yellow-500 duration-200 ease-in hover:border-dela hover:duration-300 hover:ease-in-out"><a href="">SERVICE</a></li>
+                    <li class="hover:text-white hover:border-b-4 hover:border-yellow-500 duration-200 ease-in hover:border-dela hover:duration-300 hover:ease-in-out"><a href="">PROJECTS</a></li>
+                    <li class="hover:text-white hover:border-b-4 hover:border-yellow-500 duration-200 ease-in hover:border-dela hover:duration-300 hover:ease-in-out"><a href="">BLOG</a></li>
+                    <li class="hover:text-white hover:border-b-4 hover:border-yellow-500 duration-200 ease-in hover:border-dela hover:duration-300 hover:ease-in-out"><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="flex justify-center">
+        <div class="text-center">
+            <div>
+                <h2 class="text-5xl xl:text-6xl pt-28 pb-16 text-white font-bold font-fontprimary">Welcome To <span class="block pt-2 font-bold	"> UpConstruction</span></h2>
+                <p class=" xl:w-[600px] text-xl text-gray-200 pb-12 font-fontprimary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a class="py-3 px-[40px] border-solid border-2 rounded-full duration-300 ease-in border-yellow-400 text-white hover:bg-yellow-400 hover:hover:duration-500 hover:ease-in-out"href="#">Get Started</a>
+            </div>
+        </div>
+        </div>
+</section>
+
+    <section class="py-20 px-10">
+        <div class="container mx-auto text-center ">
+            <div class="flex flex-col">
+                <h2 class="text-gray-800 font-bold text-3xl m-10 text-center font-fontprimary ">
+                    Constructions
+                </h2>
+                <p class="text-gray-600 text-center mb-20 font-fontprimary md:w-full">
+                    Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
+            dolore earum
+                </p>
+            </div>
+
+
+            <div class="grid gap-5 grid-cols-1  md:grid-cols-2 xl:grid-cols-2  pt-2 pb-2">
+                
+                <div class="flex flex-col xl:flex-row border-solid border">
+                    <div class="xl:flex">
+                        <img class="" src="/assets/img/constructions-1.jpg" alt="">
+                    </div>
+                    <div class="">
+                        <h4 class="font-bold text-gray-600 text-md mt-5">
+                            Eligendi omnis sunt veritatis.
+                        </h4>
+                        <p class="p-10">
+                            Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti
+                            adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col xl:flex-row border-solid border">
+                    <div class="flex">
+                        <img class="" src="/assets/img/constructions-4.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-600 text-md mt-5">
+                            Expedita voluptas ut ut nesciunt
+                        </h4>
+                        <p class="p-10">
+                            Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque
+                            architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores
+                            libero nobis.
+                        </p>
+                    </div>
+                </div>
+
+                
+                    <div class="flex flex-col xl:flex-row border-solid border">
+                        <div class="flex">
+                            <img src="/assets/img/constructions-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-600 text-md mt-5">
+                                Possimus ut sed velit assumenda
+                            </h4>
+                            <p class="p-10"> 
+                                    Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui
+                                iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum
+                                dignissimos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col xl:flex-row border-solid border">
+                    <div class="flex">
+                        
+                            <img src="/assets/img/constructions-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-600 text-md mt-5">
+                                Error beatae dolor inventore aut</h4>
+                            <p class="p-10">
+                                Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat
+                    ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla
+                    culpa.
+                            </p>
+                        </div>
+                </div>
+                    </div>
+
+                
+
+    </section>
+
+    <section class="py-20 px-10" style="background-color: #f5f6f7;">
+        <div class="container mx-auto">
+        <div class="flex flex-col text-center">
+            <h2 class="text-gray-800 font-bold text-3xl pb-5 font-fontprimary " >
+                Services
+            </h2>
+            <p class="font-fontprimary text-gray-600 xl:pl-[400px] xl:pr-[400px] mb-14 ">
+                Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos
+            quam
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 md:grid-rows-2 xl:grid-rows-2 gap-8 ">
+
+            <div class="flex ">
+            <div class="p-10" style="background-color: white;">
+                <div class="pb-5">
+                    <i class="text-5xl text-gray-500 fa-solid fa-mountain-city"></i>
+                </div>
+                <h3 class="pt-3 pb-8 font-bold text-gray-600 text-2xl font-fontprimary" >Nesciunt Mete</h3>
+                <p class="font-fontprimary text-gray-600 pb-5">
+                    Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+                tempore et consequatur.
+                </p>
+                <a class="text-yellow-400 border-solid border-2 rounded-md py-[10px] px-[40px] duration-300 ease-in border-yellow-400  hover:bg-yellow-400 hover:hover:duration-500 hover:text-white hover:ease-in-out font-fontprimary" href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="flex ">
+            <div class="p-10" style="background-color: white;">
+                <div class="pb-5">
+                    <i class="text-5xl text-gray-500 fa-solid fa-arrow-up-from-ground-water"></i>
+                </div>
+                <h3 class="pt-3 pb-8 font-bold text-gray-600 text-2xl font-fontprimary" >Nesciunt Mete</h3>
+                <p class="font-fontprimary text-gray-600 pb-5">
+                    Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+                tempore et consequatur.
+                </p>
+                <a class="text-yellow-400 border-solid border-2 rounded-md py-[10px] px-[40px] duration-300 ease-in border-yellow-400  hover:bg-yellow-400 hover:hover:duration-500 hover:text-white hover:ease-in-out font-fontprimary" href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="flex ">
+            <div class="p-10" style="background-color: white;">
+                <div class="pb-5">
+                    <i class="text-5xl text-gray-500 fa-solid fa-compass-drafting"></i>
+                </div>
+                <h3 class="pt-3 pb-8 font-bold text-gray-600 text-2xl font-fontprimary" >Nesciunt Mete</h3>
+                <p class="font-fontprimary text-gray-600 pb-5">
+                    Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+                tempore et consequatur.
+                </p>
+                <a class="text-yellow-400 border-solid border-2 rounded-md py-[10px] px-[40px] duration-300 ease-in border-yellow-400  hover:bg-yellow-400 hover:hover:duration-500 hover:text-white hover:ease-in-out font-fontprimary" href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="p-10" style="background-color: white;">
+                <div class="pb-5">
+                    <i class="text-5xl text-gray-500 fa-solid fa-trowel-bricks"></i>
+                </div>
+                <h3 class="pt-3 pb-8 font-bold text-gray-600 text-2xl font-fontprimary" >Nesciunt Mete</h3>
+                <p class="font-fontprimary text-gray-600 pb-5">
+                    Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+                tempore et consequatur.
+                </p>
+                <a class="text-yellow-400 border-solid border-2 rounded-md py-[10px] px-[40px] duration-300 ease-in border-yellow-400  hover:bg-yellow-400 hover:hover:duration-500 hover:text-white hover:ease-in-out font-fontprimary" href="#">Learn More</a>
+            </div>
+        </div>
+
+
+        <div class="flex ">
+            <div class="p-10" style="background-color: white;">
+                <div class="pb-5">
+                    <i class="text-5xl text-gray-500 fa-solid fa-helmet-safety"></i>
+                </div>
+                <h3 class="pt-3 pb-8 font-bold text-gray-600 text-2xl font-fontprimary" >Nesciunt Mete</h3>
+                <p class="font-fontprimary text-gray-600 pb-5">
+                    Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+                tempore et consequatur.
+                </p>
+                <a class="text-yellow-400 border-solid border-2 rounded-md py-[10px] px-[40px] duration-300 ease-in border-yellow-400  hover:bg-yellow-400 hover:hover:duration-500 hover:text-white hover:ease-in-out font-fontprimary" href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="flex ">
+            <div class="p-10" style="background-color: white;">
+                <div class="pb-5">
+                    <i class="text-5xl text-gray-500 fa-solid fa-arrow-up-from-ground-water"></i>
+                </div>
+                <h3 class="pt-3 pb-8 font-bold text-gray-600 text-2xl font-fontprimary" >Nesciunt Mete</h3>
+                <p class="font-fontprimary text-gray-600 pb-5">
+                    Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+                tempore et consequatur.
+                </p>
+                <a class="text-yellow-400 border-solid border-2 rounded-md py-[10px] px-[40px] duration-300 ease-in border-yellow-400  hover:bg-yellow-400 hover:hover:duration-500 hover:text-white hover:ease-in-out font-fontprimary" href="#">Learn More</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="py-20 px-10">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-2 xl:grid-cols-2 gap-4">
+                <div class="relative ">
+                    <img class=" w-full h-full rounded-md" src="/assets/img/alt-services.jpg" alt="">
+                    
+                </div>
+
+                <div class="flex-column justify-content-center">
+                    <div class="text-center">
+                        <h3 class="text-gray-800 font-bold text-3xl pb-5 font-fontprimary mb-5 pb-5">Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+                        <p class="font-fontprimary text-gray-600 ">Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus
+                            laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+                    </div>
+                <div class="m-10">
+                    
+                    <div class="m-5">
+                        <a href="#"><h4 class="font-bold  text-md font-fontprimary text-gray-800" >Lorem ipsum</h4></a>
+                        <pc class="leading-6">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                            non provident</pc>
+                    </div>
+                
+
+                
+                    <div class="m-5">
+                        <a href="#"><h4 class="font-bold text-md font-fontprimary text-gray-800">Nemo Enim</h4></a>
+                        <p class="leading-6">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque</p>
+                    </div>
+                
+
+                
+                    
+                    <div class="m-5">
+                        <a href="#"><h4 class="font-bold  text-md font-fontprimary text-gray-800">Dine Pad</h4></a>
+                        <p class="leading-6">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus
+                            aut eligendi omnis</p>
+                    </div>
+                
+
+                
+                    
+                    <div class="m-5">
+                        <a href="#"><h4 class="font-bold  text-md font-fontprimary text-gray-800">Tride clov</h4></a>
+                        <p class="leading-6">Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet.
+                            Et eligendi</p>
+                    </div>
+                
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-10" style="background-color: #f5f6f7;">
+        <div class="container mx-auto">
+            
+            <div class="grid md:grid-cols-2 xl:grid-cols-2 gap-4">
+                <div class="flex flex-col ">
+                    <h3 class="text-gray-800 font-bold text-3xl  font-fontprimary mb-5 pb-8">
+                        Voluptatem dignissimos provident
+                    </h3>
+                    <p class="text-md font-fontprimary text-gray-600 py-5 font-semibold">
+
+                        
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.
+                    </p>
+                    <ul class="py-5">
+                        <li class="py-5 font-fontprimary text-gray-500 text-md font-medium">
+                            <i class="text-xl text-yellow-400 font-pr fa-solid fa-check"></i>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </li>
+                        <li class="py-5 font-fontprimary text-gray-500 text-md font-medium">
+                            <i class="text-xl text-yellow-400 fa-solid fa-check"></i>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </li>
+                        <li class="py-5 font-fontprimary text-gray-500 text-md font-medium">
+                            <i class="text-xl text-yellow-400 fa-solid fa-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                            aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                            pariatur.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="relative ">
+                    <img class="w-full h-full rounded-md" src="/assets/img/features-1.jpg" alt="">
+                </div>
+
+            </div>
+        
+        </div>
+    </section>
+
+    <section class="py-20 px-10">
+        <div class="container mx-auto">
+            <div class="flex flex-col text-center">
+                <h2 class="text-gray-800 font-bold text-3xl pb-5 font-fontprimary ">Our Projects</h2>
+                <p class="font-fontprimary text-gray-600  xl:pl-[400px] xl:pr-[400px] py-8 ">Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto
+                    accusamus fugit aut qui distinctio</p>
+            </div>
+            <div class="grid md:grid-cols-3 md:grid-rows-4 xl:grid-cols-3 xl:grid-rows-4 gap-5 ">
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/1.jpg" alt="">
+                </div>
+            
+                
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/2.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/3.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/4.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/5.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/6.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/7.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/8.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/9.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/10.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/11.jpg" alt="">
+                </div>
+            
+            
+                <div>
+                    <img class="h-auto max-w-full rounded-md transition duration-300 ease-in-out hover:scale-110 cursor-pointer" src="/assets/img/12.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="py-20 px-10" style="background-color: #f5f6f7;">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5  ">
+            <div class="md:pr-32 xl:pr-32">
+                <h3 class="text-gray-800 font-bold text-3xl  font-fontprimary md:py-5 xl:py-14 ">
+                    Minus hic non reiciendis ea possimus at quia.
+                </h3>
+                <p class="py-5 font-fontprimary text-gray-600 text-md font-medium">Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis
+                    ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus
+                    dicta.
+                </p>
+                <p class=" font-fontprimary text-gray-600 text-md font-medium">Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt
+                    porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+            </div>
+
+            <div class="p-4" style="background-color: white;">
+            <div class=" flex flex-col md:p-4 xl:p-4">
+                <form action="
+                "><h3 class="text-gray-800 font-bold text-md pb-5 font-fontprimary">Get a quote</h3>
+                <p class="font-fontprimary text-gray-500 ">Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero
+                    park flows.</p>
+                <div class=" flex flex-col gap-4 py-5">
+                    <input type="text" name="name" placeholder="Name" class="px-3 py-3 border border-gray-300" >
+                    <input type="email" name="email" placeholder="Email" class="px-3 py-3 border border-gray-300" >
+                    <input type="text" name="phone" placeholder="Phone" class="px-3 py-3 border border-gray-300">
+                    <textarea type="text" name="message" placeholder="Message" class="px-3 py-3 border border-gray-300" ></textarea>
+                </div>
+                <div class="flex justify-center">
+                    <button class= " bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        Get a quote
+                    </button>
+                </div>
+            </div> 
+            </form>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    
+
+<footer class="relative bg-[url('/footer-bg.jpeg')] bg-center bg-no-repeat  px-0 md:px-10 md:pt-20 md:pb-10 xl:py-20 xl:px-0">    
+    <div class="xl:container xl:mx-auto">
+            
+                <div class="flex flex-col  md:my-0 md:flex-row md:flex-nowrap md:justify-center md:align-middle md:space-x-10 xl:flex-row xl:flex-wrap xl:justify-center xl:align-middle xl:space-x-20 xl:my-0">
+                    <div class="text-white font-fontprimary ">
+                        <h3 class="text-2xl font-semibold py-3">UpConstruction</h3>
+                        <p>
+                        A108 Adam Street <br>
+                        NY 535022, USA<br>
+                        <strong>Email:</strong> info@example.com<br>
+                        <strong>Phone:</strong> +1 5589 55488 55<br>
+                        </p>
+                        <div class="flex gap-4 py-2 md:py-5 xl:py-5  ">
+                            <a href="#" class="w-8 h-8 inline-block  text-center leading-8 rounded-md bg-gray-600 text-white hover:bg-yellow-400 hover:transition-all hover:duration-300 " ><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" class="w-8 h-8 inline-block  text-center leading-8 rounded-md bg-gray-600 text-white hover:bg-yellow-400 hover:transition-all hover:duration-300 " ><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="w-8 h-8 inline-block  text-center leading-8 rounded-md bg-gray-600 text-white hover:bg-yellow-400 hover:transition-all hover:duration-300 " ><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="w-8 h-8 inline-block  text-center leading-8 rounded-md bg-gray-600 text-white hover:bg-yellow-400 hover:transition-all hover:duration-300 " ><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="text-white font-fontprimary">
+                        <h4 class="text-md font-semibold mb-3 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200">Useful Links</h4>
+                        <ul class="">
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">About us</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Services</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Terms of service</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Privacy policy</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Home</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-white font-fontprimary">
+                        <h4 class="text-md font-semibold mb-3 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200">Our Services</h4>
+                        <ul>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Web Development</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Web Design</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Marketing</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Graphic Design</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Product Management</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-white font-fontprimary">
+                        <h4 class="text-md font-semibold mb-3 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200">Hic solutasetp</h4>
+                        <ul>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Suscipit distinctio</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Dilecta</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Sit quas consectetur</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Excepturi dignissimos</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Molestiae accusamus iure</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-white font-fontprimary">
+                        <h4 class="text-md font-semibold mb-3 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200">Nobis illum</h4>
+                        <ul>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Laudantium dolorum</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Dinera</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Trodelas</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Flexo</a></li>
+                            <li class="mb-2 text-gray-300 hover:text-white hover:border-b-4 hover:border-yellow-400 duration-200 "><a href="#">Ipsam</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>
